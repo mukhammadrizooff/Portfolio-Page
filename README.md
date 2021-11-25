@@ -3,7 +3,7 @@
 # Portfolio: setup and mobile version skeleton
 
 > One paragraph statement about the project.
-![screenshot](./material.png)
+![image](https://user-images.githubusercontent.com/63915024/143486737-283b743a-3e42-4fb2-8fbc-f48dab113c49.png)
 
 
 

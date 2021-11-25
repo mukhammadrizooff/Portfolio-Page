@@ -10,7 +10,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  background-image: url("");
+  background-image: url("material1.png");
   background-repeat: no-repeat;
   background-size: 35%;
   background-position: left top;
@@ -74,7 +74,7 @@ header {
 }
 
 .projects {
-  background-image: url("");
+  background-image: url("material2.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center top;

@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello-Microverse
+# Portfolio: setup and mobile version skeleton
 
 > One paragraph statement about the project.
 ![screenshot](./material.png)

@@ -34,7 +34,7 @@ header {
 .logo {
   font-family: "Playfair Display", serif;
   font-size: 3.125rem;
-  color: 1a2236;
+  color: #1a2236;
   font-weight: normal;
   letter-spacing: 2px;
   line-height: 1em;
@@ -48,7 +48,7 @@ header {
 .self {
   font-family: "poppins", sans-serif;
   font-size: 14px;
-  color: 1a2236;
+  color: #1a2236;
   font-weight: normal;
   letter-spacing: 2px;
   line-height: 1.5em;

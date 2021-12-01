@@ -350,6 +350,7 @@ fieldset {
   border-radius: 4px;
   outline: none;
   padding: 0.5em;
+  border-radius: 2px;
 }
 
 .message {
@@ -362,6 +363,7 @@ fieldset {
   border-radius: 4px;
   outline: none;
   padding: 0.5em;
+  border-radius: 3px;
 }
 
 footer {
@@ -423,4 +425,10 @@ footer {
   background-color: #e5e5e5;
   color: #1a2236;
   border: solid 2px #1a2236;
+}
+
+.button_decoration:hover{
+  text-decoration: underline;
+  background-color: #1a2236;
+  color: #fff;
 }

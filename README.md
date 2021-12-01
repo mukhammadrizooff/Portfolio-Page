@@ -3,16 +3,19 @@
 # Portfolio: setup and mobile version skeleton
 
 > One paragraph statement about the project.
-![image](https://user-images.githubusercontent.com/63915024/143486737-283b743a-3e42-4fb2-8fbc-f48dab113c49.png)
+![screenshot](./2021-12-01_22-34-15.png)
 
 
 
 ## Built With
 
 - HTML
-- CSS (Used Flexbox tools)
+- CSS (Used Flexbox and Grid tools)
 - Git & GitHub
 
+## Live Showroom
+
+[Live Showroom Link](http://127.0.0.1:5500/index.html)
 
 ## Author
 

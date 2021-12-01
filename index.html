@@ -192,33 +192,36 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna.
           </p>
-
-          <label for="name">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Please enter your name"
-              maxlength="30"
-              required
-            />
-            <br />
-          </label>
+          <label for="name"></label>
+          <input
+            type="text"
+            class="name"
+            id="name"
+            name="name"
+            placeholder="   Your Name"
+            maxlength="30"
+            required
+          />
+          <br />
           <label for="email"></label>
           <input
             type="email"
-            name="email"
+            class="name"
             id="email"
             pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+            name="email"
+            placeholder="   Your Email"
             required
           />
           <br />
           <label for="message"></label>
           <textarea
-            class="message"
             name="message"
-            id="message"            
+            class="message"
+            id="message"
+            placeholder="   Enter your message here..."
             maxlength="500"
+            required
           ></textarea>
           <input type="submit" class="btn" value="Start collaboration" />
         </fieldset>

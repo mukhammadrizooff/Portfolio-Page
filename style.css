@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -32,7 +32,7 @@ header {
 }
 
 .logo {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 5em;
   font-weight: normal;
   letter-spacing: 2px;
@@ -45,7 +45,7 @@ header {
 }
 
 .self {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: black;
   font-size: 1.2em;
   font-weight: 400;
@@ -88,7 +88,7 @@ header {
   border: solid 2px #e5e5e5;
   box-sizing: content-box;
   width: 50%;
-  background-image: url('images/nextto.png');
+  background-image: url("images/nextto.png");
   background-repeat: no-repeat;
   background-size: 10%;
   background-position: 10em center;
@@ -114,7 +114,7 @@ header {
   width: 90%;
   outline: none;
   cursor: pointer;
-  background-image: url('images/download.png');
+  background-image: url("images/download.png");
   background-repeat: no-repeat;
   background-size: 8%;
   background-position: 15em center;
@@ -138,7 +138,7 @@ header {
   flex-direction: row;
   align-items: center;
   margin: 5%;
-  font-family: 'playfair Display', sans-serif;
+  font-family: "playfair Display", sans-serif;
   font-size: 4em;
   font-weight: 300;
   padding-top: 60%;
@@ -162,7 +162,7 @@ header {
 }
 
 .projecttitle {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   width: 80vw;
   font-style: normal;
   font-size: 1.7em;
@@ -186,7 +186,7 @@ header {
 }
 
 .language {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-size: 1.3em;
   font-weight: 300;
@@ -215,7 +215,7 @@ header {
   flex-direction: row;
   align-items: center;
   margin: 5%;
-  font-family: 'playfair Display', sans-serif;
+  font-family: "playfair Display", sans-serif;
   font-size: 4em;
   font-weight: 300;
   padding: 16% 5% 0 5%;
@@ -223,7 +223,7 @@ header {
 }
 
 .introabout {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 1.2em;
   font-weight: 300;
   letter-spacing: 2px;
@@ -238,7 +238,7 @@ header {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   justify-content: flex-start;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   text-align: left;
@@ -254,7 +254,7 @@ header {
   height: 50vh;
   max-width: 100vw;
   background-color: #1c528a;
-  background-image: url('images/hashtag.png');
+  background-image: url("images/hashtag.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right bottom;
@@ -275,7 +275,7 @@ header {
   height: 50vh;
   max-width: 100vw;
   background-color: #e2505c;
-  background-image: url('images/ruby.png');
+  background-image: url("images/ruby.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right bottom;
@@ -296,7 +296,7 @@ header {
   height: 50vh;
   max-width: 100vw;
   background-color: #febf52;
-  background-image: url('images/lamp.png');
+  background-image: url("images/lamp.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right bottom;
@@ -315,7 +315,7 @@ header {
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 1.6em;
   line-height: 2em;
   list-style-type: none !important;
@@ -345,7 +345,7 @@ fieldset {
   width: 93%;
   height: 8vh;
   background-color: white;
-  margin: 0.8em 1em  0.8em 1em;
+  margin: 0.8em 1em 0.8em 1em;
   border: solid 2px #dfdfe0;
   border-radius: 4px;
   outline: none;
@@ -353,11 +353,11 @@ fieldset {
 }
 
 .message {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   width: 93%;
   height: 20vh;
   background-color: white;
-  margin: 0.2em 1em  0.8em 1em;
+  margin: 0.2em 1em 0.8em 1em;
   border: solid 2px #dfdfe0;
   border-radius: 4px;
   outline: none;
@@ -368,7 +368,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 1.2em;
   line-height: 1.5em;
   list-style-type: none !important;
@@ -387,7 +387,7 @@ footer {
   padding: 5%;
   margin: 3% 2% 5% 1%;
   justify-content: left;
-  background-image: url('icons/download1.png');
+  background-image: url("icons/download1.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 10em center;

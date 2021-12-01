@@ -427,8 +427,7 @@ footer {
   border: solid 2px #1a2236;
 }
 
-.button_decoration:hover {
-  text-decoration: underline;
+.button_decoration:hover {  
   background-color: #1a2236;
   color: #fff;
 }

@@ -186,8 +186,8 @@
 
     <section>
       <form action="https://formspree.io/f/xjvlbplk" method="post" id="form">
-        <fieldset>
-          <h2 class="contact">Get Started</h2>
+        <fieldset class="contact">
+          <h2 class="contactheader">Get Started</h2>
           <p class="self">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna.
@@ -202,6 +202,7 @@
               maxlength="30"
               required
             />
+            <br />
           </label>
           <label for="email"></label>
           <input
@@ -211,17 +212,18 @@
             pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
             required
           />
+          <br />
           <label for="message"></label>
           <textarea
+            class="message"
             name="message"
-            id="message"
-            cols="30"
-            rows="10"
+            id="message"            
             maxlength="500"
           ></textarea>
-          <input type="submit" class="btn" value="start_collaboration" />
+          <input type="submit" class="btn" value="Start collaboration" />
         </fieldset>
       </form>
+      <!-- -->
       <footer>
         <a href="#" class="resume">
           <p>Get my resume</p>

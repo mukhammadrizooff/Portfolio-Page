@@ -175,7 +175,7 @@ h1.logo {
   margin: 1% 5%;
   display: flex;
   justify-content: start;
-  animation-duration: 15s;
+  animation-duration: 16s;
   animation-name: slidein;
 }
 

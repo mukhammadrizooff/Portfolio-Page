@@ -175,7 +175,23 @@ h1.logo {
   margin: 1% 5%;
   display: flex;
   justify-content: start;
+  animation-duration: 15s;
+  animation-name: slidein;
 }
+
+@keyframes slidein {
+  from{
+    margin-left: 100%;
+    width: 250%;
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+  
+}
+
+
 
 .languagebadge {
   display: flex;

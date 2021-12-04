@@ -925,7 +925,7 @@ a:active {
     padding: 1%;
     box-sizing: border-box;
     column-gap: 2%;
-    text-align: left; 
+    text-align: left;
   }
 
   .message-label {
@@ -1054,7 +1054,7 @@ a:active {
   .one {
     grid-row: 1/2;
     grid-column: 4/10;
-    overflow: hidden;    
+    overflow: hidden;
     background-image: url("images/project1.png");
     background-size: contain;
   }
@@ -1185,16 +1185,6 @@ a:active {
     grid-row: 10;
   }
 
-  #projectimg4 {
-    display: initial;
-    background-image: url("images/projectimg4.png");
-    background-position: right top;
-    background-size: 50%;
-    grid-column: 5;
-    grid-row: 10;
-  }
-
-
   .i1,
   .i2,
   .i3,
@@ -1203,4 +1193,14 @@ a:active {
   .i6 {
     display: none;
   }
+
+  #projectimg4 {
+    display: initial;
+    background-image: url("images/projectimg4.png");
+    background-position: right top;
+    background-size: 50%;
+    grid-column: 5;
+    grid-row: 10;
+  }
+  
 }

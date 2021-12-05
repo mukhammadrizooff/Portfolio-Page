@@ -31,12 +31,12 @@ header {
 
 h1.logo {
   font-family: "Playfair Display", serif;
-  font-size: 5.5em;
+  font-size: 7em;
   font-weight: normal;
   letter-spacing: 2px;
   line-height: 1em;
   font-stretch: expanded;
-  padding: 0% 5% 0 5%;
+  padding: 1% 5% 0 5%;
   background: transparent;
   background-color: transparent;
   margin: 5%;
@@ -89,14 +89,13 @@ h1.logo {
   background-color: #1a2236;
   color: #fff;
   font-family: "poppins", sans-serif;
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: normal;
   display: flex;
   align-items: center;
   margin: 3%;
   padding: 3% 2%;
   outline: none;
-  border: solid 2px #e5e5e5;
   box-sizing: content-box;
   width: 50%;
   background-image: url("images/nextto.png");
@@ -453,6 +452,7 @@ fieldset {
   margin: 5%;
   align-items: center;
   justify-content: center;
+  color: #1a2236;
 }
 
 .name {
@@ -512,8 +512,8 @@ footer {
   display: flex;
   flex-direction: row;
   width: 95vw;
-  justify-content: space-around;
   list-style-type: none;
+  justify-content: space-around;
 }
 
 .name:focus,
@@ -546,7 +546,7 @@ a:active {
   color: #1a2236;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   * {
     background-repeat: no-repeat;
     background-size: cover;
@@ -644,7 +644,7 @@ a:active {
     align-items: start;
     justify-content: start;
     font-weight: 300;
-    font-size: 9em;
+    font-size: 5.5em;
   }
 
   h2.logo {
@@ -677,6 +677,7 @@ a:active {
     font-size: 1.5em;
     font-weight: 300;
     text-align: justify;
+    color: #1a2236;
   }
 
   .introcontact {
@@ -689,7 +690,7 @@ a:active {
   }
 
   .btn {
-    width: 20%;
+    width: 25%;
     padding: 2% 5%;
     margin-bottom: 20vh;
     font-size: 1em;
@@ -698,13 +699,15 @@ a:active {
   }
 
   .btn2 {
-    max-width: min-content;
-    height: 3.125%;
     box-sizing: border-box;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    min-width: 70%;
+    width: 60%;
+    text-align: left;
+    padding: 0;
+    height: 8vh;
+    background-position-x: 12em;
   }
 
   .btn3 {
@@ -739,6 +742,8 @@ a:active {
   }
 
   .aboutheader {
+    color: #1a2236;
+    font-weight: 500;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -764,7 +769,7 @@ a:active {
     box-sizing: border-box;
     text-align: left;
     justify-content: right;
-    background-image: url(images/dots.png);
+    background-image: url("images/dots.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center bottom;
@@ -893,6 +898,8 @@ a:active {
   }
 
   .contactheader {
+    color: #1a2236;
+    font-weight: 500;
     padding: 0;
     margin: 0;
     font-size: 5.5em;
@@ -900,6 +907,7 @@ a:active {
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .name {
@@ -925,7 +933,7 @@ a:active {
     padding: 1%;
     box-sizing: border-box;
     column-gap: 2%;
-    text-align: left;
+    text-align: left; /* row-gap: 2%; */
   }
 
   .message-label {
@@ -946,7 +954,7 @@ a:active {
     width: 40%;
     min-height: 18%;
     margin-bottom: 2%;
-    padding: 0;
+    padding: 2%;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
@@ -964,25 +972,23 @@ a:active {
 
   .resume {
     width: 50vw;
-    height: auto;
     padding: 1%;
-    margin: 2.2%;
-    letter-spacing: 2px;
+    margin: 2em;
     align-items: center;
     justify-content: start;
-    background-size: 2%;
+    background-size: 4%;
+    font-size: 2em;
   }
 
   .social {
-    width: 30%;
-    height: auto;
+    width: 30vw;
     padding: 0;
-    margin: 3%;
+    margin: 3em;
   }
 
-  .socialicon > a > img {
-    width: 1vw;
-    height: 1vw;
+  .socialicon {
+    margin: 0;
+    padding: 0;
   }
 
   .menu-items:hover > a,
@@ -1185,15 +1191,6 @@ a:active {
     grid-row: 10;
   }
 
-  .i1,
-  .i2,
-  .i3,
-  .i4,
-  .i5,
-  .i6 {
-    display: none;
-  }
-
   #projectimg4 {
     display: initial;
     background-image: url("images/projectimg4.png");
@@ -1201,5 +1198,14 @@ a:active {
     background-size: 50%;
     grid-column: 5;
     grid-row: 10;
+  }
+
+  .i1,
+  .i2,
+  .i3,
+  .i4,
+  .i5,
+  .i6 {
+    display: none;
   }
 }

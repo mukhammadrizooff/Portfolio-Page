@@ -1108,7 +1108,7 @@ a:active {
     transform: translateY(38vw);
     background-color: rgba(0, 0, 0, 0);
     transition: transform 1s, background-color 1s;
-    padding-bottom: 30vw;
+    padding: 30vw;
     padding-inline-start: 2vw;
     width: inherit;
   }
